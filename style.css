@@ -1,0 +1,13 @@
+@keyframes hide-appear {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .vertical-line {
+    animation: hide-appear 1s infinite;
+  }
+
